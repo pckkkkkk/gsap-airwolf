@@ -1,8 +1,18 @@
+/* https://famfonts.com/airwolf/ */
+@font-face {
+    font-family: 'borg9';
+    src: url('/font/borg9-webfont.woff2') format('woff2'),
+    url('/font/borg9-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 :root {
     --text-shadow-color: #B80F1D;
 }
 
 * {
+    border: 0;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
