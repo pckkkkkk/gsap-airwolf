@@ -47,13 +47,21 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.end * {
+    color: #fff;
+}
+.end h1 {
     text-transform: uppercase;
-    font-family: Arial, Helvetica, sans-serif
+    font-size: 3em;
 }
 
-.end h1 {
-    color: #fff;
-    font-size: 4em;
+.end p {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 0 0.5em;
 }
 
 .curtain {
