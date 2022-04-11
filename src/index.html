@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>gsap airwolf intro</title>
+    
+    
+    <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+    <main>
+        <div class="scene">
+            <section class="headline">
+                <div class="top">
+                    <p class="text">airwolf</p>
+                </div>
+                
+                <div class="bottom">
+                    <p class="text">airwolf</p>
+                </div>
+            </section>
+            
+            <section class="curtain">
+                <img class="left" rel="preload" src="/image.jpg" alt="an image">
+                <img class="right" rel="preload" src="/image.jpg" alt="an image">
+            </section>
+            
+            <svg class="grid" height="100%" width="100%">
+                <defs>
+                    <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
+                        <path d="M 60 0 L 0 0 0 60" fill="none" stroke="#6BA0B7" stroke-width="5"/>
+                    </pattern>
+                </defs>
+                
+                <circle r="100%" cx="50%" cy="50%" stroke="#6BA0B7" stroke-width="2" fill="url(#grid)" />
+            </svg>
+        </div>
+        <div class="end">
+            <h1>the end</h1>
+        </div>
+    </main>
+
+    <script type="module" src="/main.js"></script>
+</body>
+</html>
